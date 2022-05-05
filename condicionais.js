@@ -1,7 +1,9 @@
-var hora = 90;
+var hora = 5;
 
 if (hora < 12 ) {
    console.log("Bom dia") ;
-} else {
-    console.log("Não esta raiando o sol nascente.")
+}else if (hora < 18) {
+    console.log("Boa tarde");
+}else if ( hora <= 23){
+    console.log("Boa noite");
 }
